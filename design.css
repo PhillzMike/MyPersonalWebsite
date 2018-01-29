@@ -55,6 +55,10 @@ a:hover{
 	border-right: 2px dashed;
 	font-size: 18px
 }
+#info img{
+	width: 40px;
+	height: 40px;
+}
 #text img{
 	min-width: 200px;
 	width: 35%;
