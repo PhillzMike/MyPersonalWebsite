@@ -1,0 +1,116 @@
+body {
+	font-family: monospace;
+	font-size : 20px;
+	margin:0%;
+}
+#page{
+	background-color: rgb(57,84,132);
+}
+#header{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-content: center;
+}
+a{
+	text-decoration: none;
+	color: rgb(197,208,226);
+}
+a:hover{
+	text-decoration:underline;
+	font-size: 120%;
+}
+#contacts{
+	display: inherit;
+	flex-direction: row;
+	margin-top: 1%;
+}
+.headerLinks{
+	display: inherit;
+	flex-direction:column;
+	justify-content:center;
+}
+#skillText h2,#QuoteText h2{
+	text-align: center;
+}
+#header h1{
+	color: rgb(40,40,40);
+	letter-spacing: 10px;
+	word-spacing: 15px;
+	font-variant:small-caps;
+	font-weight: 5px;
+}
+#footer{
+	display: flex;
+	justify-content: flex-start;
+}
+.textArea{
+	display: inherit;
+	flex-direction:  column;
+	justify-content:space-around;
+	width: 50%;
+}
+#info{
+	text-align: center;
+	border-right: 2px dashed;
+	font-size: 18px
+}
+#text img{
+	min-width: 200px;
+	width: 35%;
+	height: 50%;
+	border-radius:50%;
+}
+#skill,#Quote{
+	font-size: 16px;
+	font-weight: 20px;
+}
+
+#header img{
+	width: 40px;
+	height: 40px;
+}
+#text{
+	height: 30%;
+	background-color: rgb(40,62,110);
+	color: rgb(150,130,100);
+	letter-spacing: 10px;
+	word-spacing: 20px;
+	text-align: center;
+}
+#text h1{
+	padding-top: 2%;
+	padding-bottom:2%;
+	margin:0%;
+	font-size: 100px;
+}
+#text h2{
+	padding-bottom: 5%;
+	font-size: 40px;
+}
+#info{
+	display: inherit;
+}
+#texts{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	background-color: rgb(50,67,110);
+	color: rgb(197,208,226);
+	border: 2px solid black;
+}
+#closingRemarks{
+	width: 80%;
+	margin-left: 5%;
+}
+#texts h1{
+	color: rgb(150,130,100);
+}
+#home{
+	margin-top: 2%;
+	margin-left: 5%;
+}
+
+
+	
