@@ -2,15 +2,12 @@ body {
 	font-family: monospace;
 	font-size : 20px;
 	margin:0%;
-}
-#page{
 	background-color: rgb(57,84,132);
 }
 #header{
 	display: flex;
-	width: 100%;
 	justify-content: space-around;
-	align-content: center;
+	align-items: center;
 }
 a{
 	text-decoration: none;
@@ -22,13 +19,11 @@ a:hover{
 }
 #contacts{
 	display: inherit;
-	flex-direction: row;
 	margin-top: 1%;
 }
 .headerLinks{
 	display: inherit;
-	flex-direction:column;
-	justify-content:center;
+	align-items: center;
 }
 #skillText h2,#QuoteText h2{
 	text-align: center;
@@ -81,6 +76,11 @@ a:hover{
 	letter-spacing: 10px;
 	word-spacing: 20px;
 	text-align: center;
+}
+.contact{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 #text h1{
 	padding-top: 2%;
@@ -135,14 +135,43 @@ a:hover{
 #me{
 	width: 40%;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	align-items: center;
 	margin-right: 5%;
 }
 #me img{
 	width: 100%;
 	height: 70%;
 }
+#photos{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.PhotoCard{
+	width: 100%;
+	border: 3px inset black;
+	border-radius: 1%;
+	box-shadow: 2px;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding: 1%;
+}
+.PhotoCard h3{
+	text-align: center;
+}
+.Photo{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.Photo img{
+	width: 50%;
+	height: 50%;
+}
+
 
 
 	
