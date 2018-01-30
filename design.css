@@ -96,24 +96,52 @@ a:hover{
 	display: inherit;
 }
 #texts{
-	width: 80%;
-	margin-left: 10%;
-	margin-right: 10%;
+	width: 60%;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: rgb(74, 83, 199);
+	color: rgb(188, 192, 197);
+	border: 2px dashed cyan;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 600px;
+}
+.details h1{
 	text-align: center;
-	background-color: rgb(50,67,110);
-	color: rgb(197,208,226);
-	border: 2px solid black;
+}
+.details{
+	width: 90%;
+	text-align: center;
+	font-size: 14px;
 }
 #closingRemarks{
 	width: 80%;
 	margin-left: 5%;
+	font-size: 18px;
+	font-style: italic;
 }
 #texts h1{
-	color: rgb(150,130,100);
+	color: rgb(182, 141, 81);
 }
 #home{
 	margin-top: 2%;
 	margin-left: 5%;
+}
+#aboutMe{
+	display: flex;
+}
+#me{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 5%;
+}
+#me img{
+	width: 100%;
+	height: 70%;
 }
 
 
